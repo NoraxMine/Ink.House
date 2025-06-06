@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #E1EDE6;
+    --main-font:"Raleway", sans-serif;
+    --main-font-size: 20px;
+    --main-font-color:#2C2D35;
+    --green-font-color:#598D66;
+    --gray-font-clolor:#86928B;
+    --medium-font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+}
+
+a, button {
+    font-family: var(--main-font);
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+    .header-main-links {
+        font-size: var(--main-font-size);
+    }
+
+    .about-title {
+        font-size: 60px;
+    }
+    .about-right {
+        width: 540px;
+    }
+}
+
+.header {
+    background-color: var(--primary-color);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0 32px 0;
+}
+
+.header-link::after {
+    content: url(assets/corzina.svg);
+
+}
+
+.header-link {
+    background: none;
+    border: none; 
+}
+
+.header-main-links {
+    font-size: var(--main-font-size);
+    color: var(--main-font-color);  
+    text-decoration: none;
+    margin-right: 60px;
+    font-weight: 500;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-title {
+    font-weight: 500;
+}
+
+.about-title span {
+    color: var(--green-font0color);
+}
+
+.about-text {
+    color: var(--gray-font-clolor);
+    font-size: var(--medium-font-size);
+    margin: 20px 0 60px 0;
+}
+
+.about-button {
+    padding: 21px 61px;
+    color: var(--green-font-color);
+    font-size:var(--main-font-size);
+    background: none;
+    border: 1px solid var(--green-font-color);
+}
+
