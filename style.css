@@ -16,6 +16,8 @@
 body {
     font-family: var(--main-font);
     color: var(--main-font-color);
+    font-weight: 500;
+    background-color: #F4F6F5;
 }
 
 a, button {
@@ -36,6 +38,14 @@ a, button {
     }
     .about-right {
         width: 540px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .work-item {
+        width: 310px;
     }
 }
 
@@ -101,3 +111,73 @@ a, button {
     border: 1px solid var(--green-font-color);
 }
 
+.works-title {
+    font-weight: 500;
+}
+
+.works-button:nth-child(2) {
+    margin: 0 32px;
+}
+
+.works-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.works-button {
+    border: none;
+    background-color: #D4E8D9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--main-font-color);
+    font-size: var(--main-font-size);
+}
+
+.works-button-active {
+    background-color: var(--green-font-color);
+    color: #F4F6F5;
+}
+
+.work-item {
+    background-color: var(--primary-color);
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 30px;
+}
+
+.work-artist {
+    font-size: var(--medium-font-size);
+    color: var(--gray-font-clolor);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.work-name {
+    font-size: 30px;
+}
+
+.work-type {
+    font-size: var(--medium-font-size);
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.work-price {
+    color: var(--green-font-color);
+    font-size: 24px;
+}
+
+.works-buy {
+    padding-left: 106px;
+    padding-right: 106px;
+    margin-top: 20px;
+}
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
