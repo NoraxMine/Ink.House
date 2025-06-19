@@ -263,3 +263,101 @@ a, button {
     margin: 0 30px;
 }
 
+footer {
+    background-color: var(--primary-color);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-links {
+    display: flex;
+    margin-left: 115px;
+}
+
+.footer-link a {
+    display: block;
+    text-decoration: none;
+    color: var(--gray-font-clolor);
+    margin-top: 6px;
+}
+
+.footer-link:nth-child(2) {
+    margin: 0 60px;
+}
+
+.footer-contacts {
+    margin-top: 35px;
+    margin-bottom: 8px;
+    font-size: var(--main-font-size);
+}
+
+.footer-text {
+    font-size: var(--medium-font-size);
+    color: var(--gray-font-clolor);
+}
+
+.footer-link h3 {
+    font-size: var(--main-font-size);
+    font-weight: var(--medium-font-weight);
+}
+
+.footer-social-icon {
+    margin: 0 33px;
+}
+
+.footer-text-social {
+    margin-top: 6px;
+    color: var(--gray-font-clolor);
+    font-size: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1443px) {
+    .container {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+
+    .work-item {
+        width: 290px;
+    }
+
+    .Bird {
+        width: 330px;
+        height: 380px;
+    }
+
+    .new-collection {
+        background-image: url(assets/pic_background.png);
+    }
+
+    .new-collection-info button {
+        padding: 18.5px 36.5px;
+    }
+
+    .team-info {
+        margin-top: 40px;
+    }
+
+    .team-info p {
+        width: 690px;
+        line-height: 150%;
+    }
+
+    .team-immage {
+        margin-top: 30px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
