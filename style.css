@@ -11,6 +11,7 @@
 }
 
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
@@ -80,6 +81,20 @@ a, button {
 
     .team-info h2 {
         margin-top: 80px;
+    }
+
+    .footer-links {
+        display: flex;
+        margin-left: 115px;
+    }
+
+    .new-collection {
+        background-image: url(assets/pic_background.svg);
+        padding: 70px 0;
+    }
+
+    .new-collection-info button {
+        margin-top: 50px;
     }
 }
 
@@ -216,10 +231,7 @@ a, button {
     margin-bottom: 40px;
 }
 
-#new-collection {
-    background-image: url(assets/pic_background.svg);
-    padding: 70px 0;
-}
+
 
 .new-collection-title {
     display: flex;
@@ -243,7 +255,6 @@ a, button {
     border: none;
     background-color: #EEDB6D;
     font-size: var(--main-font-size);
-    margin-top: 50px;
 }
 
 .team {
@@ -276,11 +287,6 @@ footer {
 
 .footer-left {
     display: flex;
-}
-
-.footer-links {
-    display: flex;
-    margin-left: 115px;
 }
 
 .footer-link a {
@@ -320,7 +326,7 @@ footer {
     font-size: 12px;
 }
 
-@media (min-width: 768px) and (max-width: 1443px) {
+@media (min-width: 768px) and (max-width: 1439px) {
     .container {
         max-width: 690px;
         margin: 0 auto;
@@ -336,7 +342,7 @@ footer {
     }
 
     .new-collection {
-        background-image: url(assets/pic_background.png);
+        background-image: url(assets/pic_background\ \(1\).png);
     }
 
     .new-collection-info button {
@@ -358,6 +364,60 @@ footer {
 
     .footer-info {
         display: flex;
+    }
+
+    .footer-left{ 
+        display: flex;
         flex-wrap: wrap;
     }
+
+    .footer-info {
+        margin: 0 auto;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-number-info {
+        margin-left: 197px;
+    }
+
+    .footer-links {
+        display: flex;
+        margin: 30px auto 32px auto;
+    }
+
+    .footer-text-socials {
+        display: flex;
+    }
+
+    .footer-socials {
+        margin: 0 auto;
+        color: #EEDB6D;
+    }
+
+    .footer-link:nth-child(2) {
+       margin-left: 100px; 
+       margin-right: 100px;
+    }
+
+    .work-picture {
+        width: 290px;
+        height: 392px;
+    }
+
+    .footer-icons {
+        padding-left: 12px;
+    }    
+
+    .new-collection-info button {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
 }
