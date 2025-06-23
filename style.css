@@ -113,6 +113,10 @@ a, button {
         font-size: var(--medium-font-size);
         margin: 20px 0 60px 0;
     }
+
+    .header-mobile {
+        display: none;
+    }
 }
 
 .header {
@@ -486,5 +490,9 @@ footer {
     .about-button {
         padding: 14.5px 29px;
         margin-top: 40px;
+    }
+
+    .contris {
+        display: inline;
     }
 }
