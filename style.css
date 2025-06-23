@@ -96,18 +96,30 @@ a, button {
     .new-collection-info button {
         margin-top: 50px;
     }
+
+    .about-title span {
+        color: var(--green-font0color);
+    }
+
+    .header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 33px 0 32px 0;
+    }
+
+    .about-text {
+        color: var(--gray-font-clolor);
+        font-size: var(--medium-font-size);
+        margin: 20px 0 60px 0;
+    }
 }
 
 .header {
     background-color: var(--primary-color);
 }
 
-.header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 33px 0 32px 0;
-}
+
 
 .header-link::after {
     content: url(assets/corzina.svg);
@@ -146,11 +158,7 @@ a, button {
     color: var(--green-font0color);
 }
 
-.about-text {
-    color: var(--gray-font-clolor);
-    font-size: var(--medium-font-size);
-    margin: 20px 0 60px 0;
-}
+
 
 .about-button {
     padding: 21px 61px;
@@ -230,8 +238,6 @@ a, button {
     justify-content: space-between;
     margin-bottom: 40px;
 }
-
-
 
 .new-collection-title {
     display: flex;
@@ -416,8 +422,69 @@ footer {
         margin-top: 20px;
         margin-bottom: 50px;
     }
+
+    .sss {
+        color: var(--green-font0color);
+    }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-    
+@media (min-width: 320px) and (max-width: 767px) {   
+    .header-flex {
+        flex-direction: column;
+
+    }
+
+    .header-info {
+        display: none;
+    }
+
+    .header {
+        background-color: #fff;
+    }
+
+    .header-logo {
+        display: block;
+        margin: 0 auto;
+        padding: 17px 88.5px 16px 88.5px;
+    }
+
+    .header-mobile {
+        display: flex;
+        justify-content: space-between;
+        background-color: #D4E8D9;
+        padding: 16px 15px;
+    }
+
+    .header-mobile-link {
+        border: none;
+        background-color: var(--main-font);
+    }
+
+    .Bird {
+        display: none;
+    }
+
+    .about-title {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+
+    .about-title span   {
+        color: #598D66;
+    }
+
+    .about {
+        margin-left: 15px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        line-height: 150%;
+        margin-top: 20px;
+    }
+
+    .about-button {
+        padding: 14.5px 29px;
+        margin-top: 40px;
+    }
 }
