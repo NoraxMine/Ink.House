@@ -765,7 +765,7 @@ a, button {
     }
 
     .hh {
-        margin-right: 50px;
+        margin-right: 20px;
     }
 
     .footer-socials {
@@ -789,6 +789,7 @@ a, button {
         display: flex;
         flex-wrap: wrap;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .footer-left {
